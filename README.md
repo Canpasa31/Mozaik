@@ -1,4 +1,4 @@
-# Sakir All Bot
+# Tagger İnek Bot
 _**Bu bot, gruplarda 10.000'e kadar üyeden bahsedebilir ve kanallarda 200'e kadar üyeden bahsedebilir. !**_
 
 ### 🏷 Bilgi
@@ -7,9 +7,9 @@ _**Bu bot, gruplarda 10.000'e kadar üyeden bahsedebilir ve kanallarda 200'e kad
 - yakında javascript surumu gelcektir
 
 ### 🚀 Deploy to heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SakirBey81/telegram_tag)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mrtpt/telegram_tag)
 
 ### 🎯 Krediler ve Diğer
-- [Ben](https://github.com/SakirBey1) bu Proje için ;)
+- [Ben](https://github.com/mrtpt) bu Proje için ;)
 
 **Beni Github'dan takip etmeyi unutmayın ✌️**

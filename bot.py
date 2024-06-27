@@ -25,23 +25,23 @@ async def cancel(event):
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("**GroupTaggerBot**, Grup veya kanaldaki neredeyse tüm üyelerden bahsedebilirim Bu tür botlar için Kod Sahibi ile iletişime geçin @SakirBey1 ★\nDaha fazla bilgi için **/help**'i tıklayın.",
+  await event.reply("**MegruvTaggerBot**, Grup veya kanaldaki neredeyse tüm üyelerden bahsedebilirim Bu tür botlar için Kod Sahibi ile iletişime geçin @megruv ★\nDaha fazla bilgi için **/help**'i tıklayın.",
                     buttons=(
-                      [Button.url('➕ Beni Bir Gruba Ekle', 'https://t.me/FBI_all_tag_bot?startgroup=a'),
-                      Button.url('📣 Support', 'https://t.me/FBIfederasyonu'),
-                      Button.url('💻   Developer', 'https://t.me/SakirBey2'),
-                      Button.url('✨   Sahibim', 'https://t.me/FBI_Sahip')]
+                      [Button.url('➕ Beni Bir Gruba Ekle', 'https://t.me/megruvtaggerbot?startgroup=a'),
+                      Button.url('📣 Support', 'https://t.me/megruwsohbet'),
+                      Button.url('💻   Developer', 'https://t.me/megruv'),
+                      Button.url('✨   Sahibim', 'https://t.me/bykralbey')]
                     ),
                     link_preview=False
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**UserTagger bot'un Yardım Menüsü**\n\nKomut: /all \n  Bu komutu, başkalarına bahsetmek istediğiniz metinle birlikte kullanabilirsiniz. \n`Örnek: /all Günaydın!`  \nBu komutu yanıt olarak kullanabilirsiniz. herhangi bir mesaj Bot, yanıtlanan iletiye kullanıcıları etiketleyecek"
+  helptext = "**MegruvTagger bot'un Yardım Menüsü**\n\nKomut: /all \n  Bu komutu, başkalarına bahsetmek istediğiniz metinle birlikte kullanabilirsiniz. \n`Örnek: /all Günaydın!`  \nBu komutu yanıt olarak kullanabilirsiniz. herhangi bir mesaj Bot, yanıtlanan iletiye kullanıcıları etiketleyecek"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('➕ Beni Bir Gruba Ekle', 'https://t.me/FBI_all_tag_bot?startgroup=a'),
-                       Button.url('📣 Support', 'https://t.me/FBIfederasyonu'),
-                      Button.url('💻  Developer', 'https://t.me/SakirBey2')]
+                      [Button.url('➕ Beni Bir Gruba Ekle', 'https://t.me/megruvtaggerbot?startgroup=a'),
+                       Button.url('📣 Support', 'https://t.me/megruwsohbet'),
+                      Button.url('💻  Developer', 'https://t.me/megruv')]
                     ),
                     link_preview=False
                    )
@@ -107,5 +107,5 @@ async def mentionall(event):
         usrtxt = ""
 
 
-print(">> Bot çalıyor merak etme 🚀 @SakirBey1 bilgi alabilirsin <<")
+print(">> Bot çalıyor merak etme 🚀 @bykralbey bilgi alabilirsin <<")
 client.run_until_disconnected()
